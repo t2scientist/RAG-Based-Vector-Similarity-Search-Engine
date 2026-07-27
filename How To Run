@@ -10,6 +10,7 @@ cd <repo-name>
 ### Install Dependencies
 
 ```bash
+pip install ollama
 pip install -r requirements.txt
 ```
 
