@@ -1,0 +1,57 @@
+## Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/<your-username>/<repo-name>.git
+cd <repo-name>
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Install Ollama Models
+
+```bash
+ollama pull nomic-embed-text
+ollama pull llama3.2
+```
+
+---
+
+## Run
+
+Start the backend:
+
+```bash
+python app.py
+```
+
+Open your browser:
+
+```
+http://localhost:8080
+```
+
+---
+
+## Dependencies
+
+- Python 3.10+
+- Flask
+- NumPy
+- Requests
+- Ollama
+
+---
+
+## Requirements
+
+```text
+Flask
+numpy
+requests
+```
